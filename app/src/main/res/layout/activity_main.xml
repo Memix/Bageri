@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.android.bageri.MainActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    style="@style/background_top">
+
+
+<ImageView
+    style="@style/logo"
+    android:id="@+id/logo"/>
+
+    <ImageView
+        style="@style/koscek"
+        android:id="@+id/torta"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        style="@style/background_bottom" >
+
+        <TextView
+            style="@style/name" />
+
+        <TextView
+            style="@style/content" />
+
+        <ListView
+            android:id="@+id/list1"
+            style="@style/list">
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

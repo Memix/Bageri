@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bageri</string>
+    <string name="svea">Radi´s Bakery</string>
+    <string-array name="list">
+        <item>Cankarjeva 15, Nova Gorica</item>
+        <item>tel: +386 40 568 956, email: radi@gmail.com</item>
+        <item>webside: www.naiva.si</item>
+        <item>Orders on demand!</item>
+    </string-array>
+    <string name="content">A small familly bakery with the most delicious baking goods!
+    </string>
+</resources>
